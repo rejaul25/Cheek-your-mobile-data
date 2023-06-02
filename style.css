@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-design{
+    margin-top: 15px;
+}
+.fb-lite-pro{
+    background-color: rgb(243, 247, 212);
+    display: flex;
+    padding: 3px;
+}
+.lite-text{
+    margin-top: 12px;
+    
+    color: rgb(24, 24, 129);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.form-to-sub {
+    text-align: center;
+    line-height: 25px
+}
+
+.for-style {
+    outline: none;
+    width: 450px;
+    padding: 13px;
+    margin-top: 5px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.for-style-btn {
+    width: 450px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: blue;
+}
+
+.forget-pass a {
+    font-family: 'Signika Negative', sans-serif;
+    text-decoration: none;
+}
+
+.new-acount {
+    font-family: 'Signika Negative', sans-serif;
+    width: 450px;
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid gray;
+}
+
+.more-det {
+    margin-top: 35px;
+}
+
+.other-option-down {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.other-option-down a{
+    text-decoration: none;
+    line-height: 25px;
+    margin-left: -65px;
+    
+}
+
+.down-l {
+    width: 45%;
+     
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.down-r {
+    width: 45%;
+     position: relative;
+    display: flex;
+    margin-left: 280px;
+    flex-direction: column;
+}
+
+.about-sec {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(151, 134, 134);
+}
+
+ 
+
+@media only screen and (max-width: 450px) {
+ 
+    .fb-lite-pro{
+        width: 520px;
+    }
+    
+    .for-style {
+        width: 465px;
+        padding: 15px;
+        margin-top: 15px;
+        margin-left: 25px;
+        border: none;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+    }
+
+    .for-style-btn {
+        border-radius: 5px;
+        width: 465px;
+        padding: 12px;
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+
+    .forget-pass a {
+        font-family: 'Signika Negative', sans-serif;
+        text-decoration: none;
+        margin-left: 35px;
+
+    }
+
+    .new-acount {
+        width: 320px;
+        padding: 10px;
+        margin-left: 65px;
+        background-color: #f2f2f2;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .other-option-down{
+       margin-top: 135px;
+       margin-left: 75px;
+      
+    }
+
+    .down-r{
+        position: relative;
+        margin-left: 140px;
+         
+    }
+   .btn{
+    display: none;
+   }
+
+   .about-sec{
+    margin-top: 25px;
+    margin-left: 45px;
+   }
+}
+
+ 
